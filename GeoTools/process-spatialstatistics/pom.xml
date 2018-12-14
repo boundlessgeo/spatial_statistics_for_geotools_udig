@@ -17,7 +17,7 @@
   <packaging>jar</packaging>
   <name>Process Spatialstatistics</name>
   <description>Processes for spatial statistics.</description>
-  <version>20.0</version>
+  <version>21-SNAPSHOT</version>
   
   <licenses>
     <license>
@@ -34,7 +34,7 @@
     <imageio.ext.version>1.1.27</imageio.ext.version>
     <jaiext.version>1.1.2</jaiext.version>
     <jt.version>1.5.0</jt.version>
-    <gt.version>${project.version}</gt.version>
+    <gt.version>21-SNAPSHOT</gt.version>
   </properties>
   
   <repositories>
@@ -93,11 +93,6 @@
   <!--     Dependency Management                                   -->
   <!-- =========================================================== -->
   <dependencies>
-    <dependency>
-      <groupId>org.geotools</groupId>
-      <artifactId>gt-api</artifactId>
-      <version>${gt.version}</version>
-    </dependency>
     <dependency>
       <groupId>org.geotools</groupId>
       <artifactId>gt-referencing</artifactId>
